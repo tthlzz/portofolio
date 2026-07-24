@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.className+=' js';</script>
+<title>Ahsanul — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="wrap nav-in">
+      <div class="brand">Ahsanul<span>.</span></div>
+      <div class="nav-mid">
+        <a href="#about">About</a>
+        <a href="#engineering">Engineering</a>
+        <a href="#research">Research</a>
+        <a href="#software">Software</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-soc">
+        <a href="mailto:ahsanlubis308@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></a>
+        <a href="https://github.com/tthlzz" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a>
+        <a href="https://www.linkedin.com/in/ahsanul22/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18V9.99H5.67V18h2.67zM7 8.8a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18v-4.4c0-2.36-1.26-3.46-2.94-3.46-1.36 0-1.96.75-2.3 1.27V9.99h-2.67V18h2.67v-4.47c0-1.18.22-2.32 1.68-2.32 1.44 0 1.46 1.35 1.46 2.4V18h2.4z"/></svg></a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#engineering">Engineering</a>
+      <a href="#research">Research</a>
+      <a href="#software">Software</a>
+      <a href="#contact">Contact</a>
+      <div class="mm-soc">
+        <a href="mailto:ahsanlubis308@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></a>
+        <a href="https://github.com/tthlzz" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a>
+        <a href="https://www.linkedin.com/in/ahsanul22/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18V9.99H5.67V18h2.67zM7 8.8a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18v-4.4c0-2.36-1.26-3.46-2.94-3.46-1.36 0-1.96.75-2.3 1.27V9.99h-2.67V18h2.67v-4.47c0-1.18.22-2.32 1.68-2.32 1.44 0 1.46 1.35 1.46 2.4V18h2.4z"/></svg></a>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="hero-bg"><canvas id="stars"></canvas></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 class="hi">I'm <span class="name">ahsanul</span>.<br>I make things run.<span class="cursor"></span></h1>
+        <p class="hero-sub">
+          Final-year Information Technology student at <b>Universitas Sumatera Utara</b>, Medan.
+          I build web applications and train machine learning models, and every once in a while
+          I get both to work together.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+            Let&rsquo;s talk
+          </a>
+        </div>
+      </div>
+      <div class="fan-hold">
+        <div class="fan">
+          <div class="fcard fc1">
+            <div class="fc-art fc1-art">
+              <i class="fdot d1"></i><i class="fdot d2"></i><i class="fdot d3"></i>
+              <span class="fline l1"></span><span class="fline l2 accent"></span><span class="fline l3"></span><span class="fline l4"></span>
+            </div>
+            <span class="tag">01 · Engineering</span>
+            <h6>Things I ship</h6>
+            <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 17l6-6-6-6M12 19h8"/></svg></span>
+          </div>
+          <div class="fcard fc2">
+            <div class="fc-art fc2-art"></div>
+            <span class="tag">02 · Research</span>
+            <h6>Things I study</h6>
+            <span class="ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg></span>
+          </div>
+          <div class="fcard fc3">
+            <div class="fc-art fc3-art">
+              <span class="gplat p1"></span><span class="gplat p2"></span><span class="gguy"></span><span class="gground"></span>
+            </div>
+            <span class="tag">03 · Software</span>
+            <h6>Things I play</h6>
+            <span class="ic"><svg viewBox="0 0 24 24"><path d="M6 12h4M8 10v4M15 11h.01M18 13h.01M17.5 7h-11a4.5 4.5 0 0 0-4.4 5.5l.6 3A3 3 0 0 0 5.64 18c.8 0 1.57-.32 2.13-.9L9 16h6l1.23 1.1c.56.58 1.32.9 2.13.9a3 3 0 0 0 2.94-2.5l.6-3A4.5 4.5 0 0 0 17.5 7z"/></svg></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head"><h2><span class="dot"></span>about me</h2><span class="rule"></span></div>
+      <div class="sec-body about-grid">
+        <div class="about-body">
+          <p>I'm Ahsanul, an IT student who likes turning messy problems into things that actually run. My thesis taught a model to <b>read emotion from human voice</b>; the rest of my time goes into shipping web apps that real people use.</p>
+          <p>I enjoy both ends of that range. I care about <span class="mint">clean, reliable systems</span>: transactions that don't corrupt, data that stays honest. But I also like building odd, curious things just because they're interesting, like linked-data graphs and small game experiments.</p>
+          <p class="tech-title">Here are some technologies I've been working with:</p>
+          <ul class="tech-list">
+            <li>Laravel / PHP</li><li>Python</li>
+            <li>JavaScript</li><li>PyTorch</li>
+            <li>Tailwind CSS</li><li>MySQL</li>
+            <li>RDF / SPARQL</li><li>Unity / C#</li>
+          </ul>
+        </div>
+        <div>
+          <div class="about-photo"><img src="about-photo.jpg" alt="Ahsanul Kholiqin Lubis" loading="lazy"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="wrap">
+      <div class="sec-head"><h2><span class="dot"></span>work</h2><span class="rule"></span><a href="https://github.com/tthlzz" target="_blank" rel="noopener" class="link">View all repositories →</a></div>
+      <p class="sec-lead">A mix of shipped products, thesis research, and things built purely out of curiosity.</p>
+
+      <!-- Engineering -->
+      <div class="cat" id="engineering">
+        <div class="cat-head"><span class="tag">01.</span><h3>Engineering</h3><span class="rule"></span><span class="count">web · shipped</span></div>
+
+        <div class="feat">
+          <div class="feat-visual">
+            <div class="browser">
+              <div class="bar"><i class="dr"></i><i class="dy"></i><i class="dg"></i></div>
+              <div class="screen">
+                <div class="sk m"></div><div class="sk w85"></div><div class="sk w70"></div>
+                <div class="cards"><div></div><div></div><div></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="feat-body">
+            <div class="feat-tag">Featured · in progress</div>
+            <h4>Mini-Tokopedia</h4>
+            <p>A marketplace with a full order flow: cart, checkout that won't double-charge, and a seller dashboard, built to hold up the way a real store has to.</p>
+            <div class="feat-chips"><span>Laravel 10</span><span>Tailwind</span><span>MySQL</span></div>
+            <div class="feat-links">
+              <a href="https://github.com/tthlzz/mini-tokopedia" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg>GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="row1"><span class="folder"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg></span>
+              <span class="out"><a href="https://github.com/tthlzz/Desa-PerkebunanBukitLawang" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a></span>
+            </div>
+            <div class="role">Shipped · in production</div>
+            <h5>Desa Wisata — Bukit Lawang</h5>
+            <p>A tourism platform for North Sumatran villages. This repo is the flagship version; the same template was deployed live to five real destinations.</p>
+            <div class="stack"><span>Laravel</span><span>Live ×5</span></div>
+          </article>
+          <article class="card">
+            <div class="row1"><span class="folder"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg></span>
+              <span class="out"><a href="https://github.com/tthlzz/TUBES_IMK" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a></span>
+            </div>
+            <div class="role">Coursework · full-stack</div>
+            <h5>E-Learning Platform</h5>
+            <p>A learning platform for a tutoring context — course flow, enrollment, materials, and progress tracking.</p>
+            <div class="stack"><span>Laravel</span><span>Tailwind</span></div>
+          </article>
+          <article class="card">
+            <div class="row1"><span class="folder"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg></span>
+              <span class="out"><a href="https://github.com/tthlzz/geo-analytics" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a></span>
+            </div>
+            <div class="role">Internship · gov data</div>
+            <h5>Bappelitbang Dashboard</h5>
+            <p>Turned raw government spreadsheets of village trip records into a dashboard stakeholders could actually read.</p>
+            <div class="stack"><span>Excel</span><span>Data viz</span></div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Research -->
+      <div class="cat" id="research">
+        <div class="cat-head"><span class="tag">02.</span><h3>Research</h3><span class="rule"></span><span class="count">ml · data</span></div>
+        <div class="grid two">
+          <article class="card">
+            <div class="row1">
+              <span class="folder"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg></span>
+              <span class="out"><a href="https://github.com/tthlzz/speech-emotion-recognition" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a></span>
+            </div>
+            <div class="role">Thesis · applied ML</div>
+            <h5>Speech Emotion Recognition</h5>
+            <p>A hybrid CNN-BiLSTM model with prosodic features and attention pooling that classifies four emotions (angry, happy, sad, neutral) from speech. A three-model ensemble reaches 81.71% accuracy on CREMA-D with a strict speaker-independent split.</p>
+            <div class="stack"><span>TensorFlow/Keras</span><span>CNN-BiLSTM</span><span>CREMA-D</span></div>
+          </article>
+          <article class="card">
+            <div class="row1">
+              <span class="folder"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg></span>
+              <span class="out">
+                <a href="https://github.com/tthlzz/semantic-game-explorer" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a>
+                <a href="https://semantic-game-explorer.infinityfreeapp.com/index.php" target="_blank" rel="noopener" aria-label="Live demo"><svg class="lnk" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg></a>
+              </span>
+            </div>
+            <div class="role">Coursework · semantic web</div>
+            <h5>Smart Game Seeker</h5>
+            <p>A dual-mode game explorer built on semantic web tech: live full-text search against DBpedia's SPARQL endpoint, plus a locally curated RDF triplestore covering 21 sub-genres. Game pages merge structured metadata with Wikipedia summaries and cover art.</p>
+            <div class="stack"><span>PHP</span><span>SPARQL</span><span>RDF / Jena Fuseki</span></div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Hobby -->
+      <div class="cat" id="software">
+        <div class="cat-head"><span class="tag">03.</span><h3>Software</h3><span class="rule"></span><span class="count">games · experiments</span></div>
+
+        <div class="soon">
+          <span class="soon-ic"><svg viewBox="0 0 24 24"><path d="M12 8v5l3 2M12 3a9 9 0 1 0 .01 0z"/></svg></span>
+          <b>Coming soon</b>
+          <small>Game and experimental builds are still in progress. This section fills in once there's something worth showing.</small>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="pre">04. what's next?</div>
+      <h2>Get in touch.</h2>
+      <p>I'm looking for a team where I can ship real things and keep learning. Whether it's a role, a project, or just a question, my inbox is open.</p>
+      <a href="mailto:ahsanlubis308@gmail.com" class="btn">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+        Let&rsquo;s talk
+      </a>
+    </div>
+  </section>
+
+  <footer><div class="wrap">designed &amp; built by <a href="https://github.com/tthlzz" target="_blank" rel="noopener">Ahsanul Kholiqin Lubis</a> · 2026</div></footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
