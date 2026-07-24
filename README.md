@@ -28,9 +28,8 @@ python3 -m http.server 8000
 ## Struktur
 
 ```
-index.html         # markup
-style.css          # semua styling
-script.js          # interaksi (kartu fan, carousel, scroll reveal, starfield, dll)
-about-photo.jpg     # foto profil
-semantic-preview.jpg # screenshot Smart Game Seeker
+index.html      # markup
+style.css       # semua styling
+script.js       # interaksi (kartu fan, carousel, scroll reveal, starfield, dll)
+about-photo.jpg # foto profil
 ```
