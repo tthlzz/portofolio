@@ -2,7 +2,7 @@
 
 Situs portofolio pribadi saya, dibangun dengan HTML, CSS, dan JavaScript murni tanpa framework atau build step.
 
-**Live:** [ahsankholiqin.netlify.app](https://ahsankholiqin.netlify.app)
+**Live:** [ahsanul22.netlify.app](https://ahsanul22.netlify.app)
 
 ## Fitur
 
